@@ -6,10 +6,10 @@ const Avatar = () => {
     <div className='hidden xl:flex xl:max-w-none'>
       <Image
         src={'/doge1.png'}
-        width={737}
-        height={678}
+        width={637}
+        height={278}
         alt=''
-        className='translate-z-0 w-full h-full'
+        className='translate-z-0'
       />
     </div>
   );
