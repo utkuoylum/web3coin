@@ -3,6 +3,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import TopLeftImg from "@/components/TopLeftImg";
 import Header from "@/components/Header";
+import { TransitionProvider } from "@/components/TransitionProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,11 +16,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <TopLeftImg />
-        <Nav />
-        <Header />
-        {children}
-        </body>
+        <TransitionProvider />
+          <TopLeftImg />
+          <Nav />
+          <Header />
+          {children}
+     
+      </body>
     </html>
   );
 }
