@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 const Avatar = () => {
   return (
-    <div className='hidden xl:flex xl:max-w-none'>
+    <div className='hidden relative w-full h-full xl:flex xl:max-w-none'>
       <Image
         src={'/doge1.png'}
-        width={637}
-        height={278}
+        layout='fill'
+        objectFit='contain'
         alt=''
         className='translate-z-0'
       />
