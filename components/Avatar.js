@@ -6,7 +6,7 @@ const Avatar = () => {
     <div className='hidden relative w-full h-full xl:flex xl:max-w-none'>
       <Image
         src={'/doge1.png'}
-        layout='fill'
+        fill
         objectFit='contain'
         alt=''
         className='translate-z-0'
