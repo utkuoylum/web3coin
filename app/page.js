@@ -1,7 +1,6 @@
 'use client'
 import Image from "next/image";
 import ParticlesContainer from "../components/ParticlesContainer";
-import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -20,8 +19,8 @@ export default function Home() {
           exit='hidden'
           className='h1'
         >
-          Transforming Ideas <br /> Into{' '}
-          <span className='text-accent'>Digital Reality</span>
+          Transforming Memes <br /> Into{' '}
+          <span className='text-accent drop-shadow-md '>Tokenization Reality</span>
         </motion.h1>
         {/* subtitle */}
         <motion.p
@@ -37,7 +36,6 @@ export default function Home() {
         </motion.p>
         {/* btn */}
         <div className='flex justify-center xl:hidden relative'>
-          <ProjectsBtn />
         </div>
         <motion.div
           variants={fadeIn('down', 0.4)}
@@ -46,7 +44,6 @@ export default function Home() {
           exit='hidden'
           className='hidden xl:flex'
         >
-          <ProjectsBtn />
         </motion.div>
       </div>
     </div>
