@@ -23,12 +23,12 @@ import { FreeMode, Pagination } from 'swiper';
 export const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
+    title: 'Staking',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
+    title: 'Liquidty Pool',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
@@ -38,12 +38,12 @@ export const serviceData = [
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
+    title: 'Scalable Apps',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
+    title: 'Community Powered',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
